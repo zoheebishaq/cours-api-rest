@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/courses")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://zoheeb-react-cour.herokuapp.com")
 public class CourseController {
 
     private CourseService courseService;
